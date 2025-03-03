@@ -1,0 +1,201 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --app-background: rgba(223, 229, 242, 1);
+  --base-font-family: "DM Sans", Helvetica;
+  --base-font-size: 16px;
+  --base-font-style: normal;
+  --base-font-weight: 500;
+  --base-letter-spacing: 0px;
+  --base-line-height: 24px;
+  --box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  --dark-background: rgba(39, 41, 51, 1);
+  --dark-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  --dark-reverse-box-shadow: -4px -4px 0px 0px rgba(0, 0, 0, 1);
+  --dark-text: rgba(238, 239, 233, 1);
+  --heading-2xl-font-family: "DM Sans", Helvetica;
+  --heading-2xl-font-size: 24px;
+  --heading-2xl-font-style: normal;
+  --heading-2xl-font-weight: 700;
+  --heading-2xl-letter-spacing: 0px;
+  --heading-2xl-line-height: 32px;
+  --heading-3xl-font-family: "DM Sans", Helvetica;
+  --heading-3xl-font-size: 30px;
+  --heading-3xl-font-style: normal;
+  --heading-3xl-font-weight: 700;
+  --heading-3xl-letter-spacing: 0px;
+  --heading-3xl-line-height: 36px;
+  --heading-4xl-font-family: "DM Sans", Helvetica;
+  --heading-4xl-font-size: 36px;
+  --heading-4xl-font-style: normal;
+  --heading-4xl-font-weight: 700;
+  --heading-4xl-letter-spacing: 0px;
+  --heading-4xl-line-height: 40px;
+  --heading-base-16-font-family: "DM Sans", Helvetica;
+  --heading-base-16-font-size: 16px;
+  --heading-base-16-font-style: normal;
+  --heading-base-16-font-weight: 700;
+  --heading-base-16-letter-spacing: 0px;
+  --heading-base-16-line-height: 16px;
+  --heading-base-font-family: "DM Sans", Helvetica;
+  --heading-base-font-size: 16px;
+  --heading-base-font-style: normal;
+  --heading-base-font-weight: 700;
+  --heading-base-letter-spacing: 0px;
+  --heading-base-line-height: 24px;
+  --heading-lg-18-font-family: "DM Sans", Helvetica;
+  --heading-lg-18-font-size: 18px;
+  --heading-lg-18-font-style: normal;
+  --heading-lg-18-font-weight: 700;
+  --heading-lg-18-letter-spacing: 0px;
+  --heading-lg-18-line-height: 18px;
+  --heading-lg-font-family: "DM Sans", Helvetica;
+  --heading-lg-font-size: 18px;
+  --heading-lg-font-style: normal;
+  --heading-lg-font-weight: 700;
+  --heading-lg-letter-spacing: 0px;
+  --heading-lg-line-height: 28px;
+  --heading-sm-14-font-family: "DM Sans", Helvetica;
+  --heading-sm-14-font-size: 14px;
+  --heading-sm-14-font-style: normal;
+  --heading-sm-14-font-weight: 700;
+  --heading-sm-14-letter-spacing: 0px;
+  --heading-sm-14-line-height: 14px;
+  --heading-sm-font-family: "DM Sans", Helvetica;
+  --heading-sm-font-size: 14px;
+  --heading-sm-font-style: normal;
+  --heading-sm-font-weight: 700;
+  --heading-sm-letter-spacing: 0px;
+  --heading-sm-line-height: 20px;
+  --heading-xl-20-font-family: "DM Sans", Helvetica;
+  --heading-xl-20-font-size: 20px;
+  --heading-xl-20-font-style: normal;
+  --heading-xl-20-font-weight: 700;
+  --heading-xl-20-letter-spacing: 0px;
+  --heading-xl-20-line-height: 20px;
+  --heading-xl-font-family: "DM Sans", Helvetica;
+  --heading-xl-font-size: 20px;
+  --heading-xl-font-style: normal;
+  --heading-xl-font-weight: 700;
+  --heading-xl-letter-spacing: 0px;
+  --heading-xl-line-height: 28px;
+  --heading-xs-font-family: "DM Sans", Helvetica;
+  --heading-xs-font-size: 12px;
+  --heading-xs-font-style: normal;
+  --heading-xs-font-weight: 700;
+  --heading-xs-letter-spacing: 0px;
+  --heading-xs-line-height: 16px;
+  --lg-font-family: "DM Sans", Helvetica;
+  --lg-font-size: 18px;
+  --lg-font-style: normal;
+  --lg-font-weight: 500;
+  --lg-letter-spacing: 0px;
+  --lg-line-height: 28px;
+  --main: rgba(136, 170, 238, 1);
+  --overlay: rgba(0, 0, 0, 0.8);
+  --reverse-box-shadow: -4px -4px 0px 0px rgba(0, 0, 0, 1);
+  --secondary-black: rgba(33, 33, 33, 1);
+  --sm-font-family: "DM Sans", Helvetica;
+  --sm-font-size: 14px;
+  --sm-font-style: normal;
+  --sm-font-weight: 500;
+  --sm-letter-spacing: 0px;
+  --sm-line-height: 20px;
+  --text: rgba(0, 0, 0, 1);
+  --xs-font-family: "DM Sans", Helvetica;
+  --xs-font-size: 12px;
+  --xs-font-style: normal;
+  --xs-font-weight: 500;
+  --xs-letter-spacing: 0px;
+  --xs-line-height: 16px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
